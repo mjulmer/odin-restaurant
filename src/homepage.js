@@ -1,5 +1,7 @@
 "use strict";
 
+import "./homepage.css";
+
 const header = document.createElement("h1");
 header.textContent = "Second Breakfast Food Truck";
 
