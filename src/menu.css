@@ -1,0 +1,14 @@
+.menu-item {
+    display: grid;
+    grid-template-columns: 12em 40em;
+    grid-template-rows: 2em 1fr;
+    margin-top: 1rem;
+}
+
+.menu-image {
+    border: 4px solid grey;
+    border-radius: 5px;
+    width: 10em;
+    height: 10em;
+    grid-row: 1 / -1;
+}
