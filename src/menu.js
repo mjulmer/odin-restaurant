@@ -13,10 +13,21 @@ function renderMenuPage() {
   header.textContent = "Menu";
   menuContainer.appendChild(header);
 
-  addNewMenuItem("$8","Hash brown wrap", "Hashbrowns wrapped in lavash with your choice of green salsa, ketchup, or sriracha mayo. Add runny egg +$1");
-  addNewMenuItem("$4", "Green smoothie", "For people who prefer to drink their breakfast, our green smoothie has greens and sprouts blended with seasonal fruit and yogurt (non-dairy available, +$1)");
-  addNewMenuItem("$5","Bircher breakfast", "Parfait with chia pudding, granola, and seasonal fruit.");
-
+  addNewMenuItem(
+    "$8",
+    "Hash brown wrap",
+    "Hashbrowns wrapped in lavash with your choice of green salsa, ketchup, or sriracha mayo. Add runny egg +$1"
+  );
+  addNewMenuItem(
+    "$4",
+    "Green smoothie",
+    "For people who prefer to drink their breakfast, our green smoothie has greens and sprouts blended with seasonal fruit and yogurt (non-dairy available, +$1)"
+  );
+  addNewMenuItem(
+    "$5",
+    "Bircher breakfast",
+    "Parfait with chia pudding, granola, and seasonal fruit."
+  );
 
   for (const item of menu) {
     menuContainer.appendChild(item);
