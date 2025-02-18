@@ -5,11 +5,17 @@ import { renderMenuPage } from "./menu.js";
 
 renderHomepage();
 
-clearPage();
+document.querySelector("#home-button").addEventListener("click", () => {
+  clearPage();
+  renderHomepage();
+});
 
-renderMenuPage();
+document.querySelector("#menu-button").addEventListener("click", () => {
+  clearPage();
+  renderMenuPage();
+});
 
 function clearPage() {
-    const contentContainer = document.querySelector("#content");
-    contentContainer.replaceChildren();
+  const contentContainer = document.querySelector("#content");
+  contentContainer.replaceChildren();
 }
