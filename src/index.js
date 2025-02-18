@@ -1,3 +1,3 @@
 "use strict";
 
-console.log("Running index.js.");
+import "./homepage.js";
