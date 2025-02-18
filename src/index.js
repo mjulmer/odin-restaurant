@@ -1,3 +1,5 @@
 "use strict";
 
-import "./homepage.js";
+import { renderHomepage } from "./homepage.js";
+
+renderHomepage();
